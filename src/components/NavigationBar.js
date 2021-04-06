@@ -47,8 +47,8 @@ window.addEventListener('scroll', changeBackground);
     <div className="icon cancel-btn" onClick={showMobileNavFunc}>
       <i className="fa fa-times"></i>
     </div>
-    <li><a className={`${navbar ? "sticky" : ""}`} href="" target="_blank">Sample Link</a></li>
-    <li><a className={`${navbar ? "sticky" : ""}`} href="">Sample Link 2</a></li>
+    <li><a className={`hvr-grow ${navbar ? "sticky" : ""}`} href="" target="_blank">Sample Link</a></li>
+    <li><a className={`hvr-grow ${navbar ? "sticky" : ""}`} href="">Sample Link 2</a></li>
   </ul>
   <div className="icon menu-btn" onClick={showMobileNavFunc}>
     <i className="fa fa-bars"></i>

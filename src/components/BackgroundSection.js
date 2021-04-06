@@ -11,7 +11,7 @@ const BackgroundSection = (props) => {
 }
 
 BackgroundSection.defaultProps = {
-    bgColor: '#FFFFFF',
+    bgColor: 'transparent',
   }
   
   BackgroundSection.propTypes = {
