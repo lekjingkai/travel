@@ -1,0 +1,27 @@
+.headerContainer3 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered3 {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.image3 {
+    width:100vw;
+    min-height: 500px; 
+    height: 100vh;
+    max-width: 100%;
+    background: green;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: orange;
+}
+

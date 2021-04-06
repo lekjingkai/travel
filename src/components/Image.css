@@ -1,0 +1,11 @@
+  .responsive {
+    min-width: 480px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left:50%;
+    transform:translateX(-50%);
+  }
