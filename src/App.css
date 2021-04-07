@@ -28,3 +28,6 @@ background: rgb(0,123,255,0.3);
 }
 
 
+html {
+  scroll-behavior: smooth;
+}

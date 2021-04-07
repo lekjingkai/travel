@@ -3,6 +3,10 @@ import "./Header.css";
 import "./Header2.css";
 import testimage from "./assets/nature.jpg";
 const Header = () => {
+  const handleSectionClick = () => {
+    document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
+  };
+  
   return (
     <div>
       <div className="gradient"></div>
@@ -17,7 +21,7 @@ const Header = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <button className="header-btn">Get Started</button>
+        <button onClick={handleSectionClick} className="header-btn">Get Started</button>
       </div>
     </div>
   );

@@ -1,0 +1,13 @@
+.contentContainer{
+    display: inline-block;
+    text-align: center;
+    min-width: 320px;
+    width:90%;
+    padding: 20px;
+}
+
+.contentTitle{
+    color: black ;
+margin:0;
+scroll-margin-top: 5rem;
+}
